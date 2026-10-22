@@ -1,0 +1,7 @@
+# Refleksi Pertemuan 1
+
+Menurut saya, platform yang paling menarik untuk dipelajari adalah Mobile karena aplikasi mobile banyak digunakan dalam kehidupan sehari-hari. Saya tertarik memahami bagaimana aplikasi dapat membantu aktivitas pengguna melalui smartphone serta memanfaatkan fitur seperti kamera, GPS, dan notifikasi. Selain itu, saya ingin mengetahui proses pengembangan aplikasi Android dari awal hingga dapat digunakan oleh pengguna.
+
+Tantangan yang saya hadapi dalam mengerjakan tugas ini adalah menyiapkan lingkungan pengembangan dan memahami penggunaan Git serta GitHub. Pada awalnya, saya mengalami kesulitan ketika menjalankan perintah di terminal karena ada perintah yang tidak terbaca. Saya kemudian mencoba memeriksa kembali penulisan perintah dan mengikuti langkah-langkah instalasi dengan lebih teliti.
+
+Untuk mengatasi tantangan tersebut, saya akan mempelajari dokumentasi resmi dari setiap perangkat lunak, memeriksa hasil instalasi melalui terminal, dan mencari solusi berdasarkan pesan kesalahan yang muncul. Saya juga akan membiasakan diri menggunakan Git untuk menyimpan perubahan dan GitHub untuk mengelola repository tugas. Dengan latihan secara bertahap, saya berharap dapat lebih memahami lingkungan pengembangan serta lebih siap mempelajari berbagai platform pemrograman pada pertemuan berikutnya.
