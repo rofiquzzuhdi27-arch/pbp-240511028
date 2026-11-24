@@ -1,0 +1,116 @@
+
+/* Pengaturan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Kotak utama aplikasi */
+.app {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 24px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul */
+h1 {
+    text-align: center;
+    color: #0066cc;
+    margin-bottom: 24px;
+}
+
+/* Form tambah tugas */
+form {
+    display: flex;
+    gap: 8px;
+}
+
+input[type="text"] {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button {
+    padding: 12px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+/* Statistik tugas */
+#stats {
+    margin: 20px 0 12px;
+    color: #555;
+    font-size: 14px;
+}
+
+/* Daftar tugas */
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    overflow-wrap: anywhere;
+}
+
+li span {
+    flex: 1;
+}
+
+/* Tugas selesai */
+.selesai {
+    text-decoration: line-through;
+    color: #999;
+}
+
+/* Tombol hapus */
+.hapus {
+    background-color: #e53935;
+    padding: 8px 12px;
+}
+
+/* Tampilan HP */
+@media (max-width: 480px) {
+    .app {
+        margin: 20px auto;
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    form {
+        flex-wrap: wrap;
+    }
+
+    form input {
+        width: 100%;
+    }
+}
